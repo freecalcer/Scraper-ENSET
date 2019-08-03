@@ -52,6 +52,6 @@ def check():
            #and compare it to the old one if something add the newarticle will be the last article 
            #and an email will be sent to me to inform me that there's a new article by Calling the function send_Mail()
         time.sleep(120)
-        #this loop will be repeat every 120 sec
+        #this loop will repeat every 120 sec
 
 check()
