@@ -49,7 +49,7 @@ def check():
            #so here we define a varibale NumberOf that will have also the number of articles with every loop
            #and compare it to the old one if something add the old number of article gonna to change to the new one
            #and an email will be sent to me to inform me that there's a new article by Calling the function send_Mail()
-        time.sleep(15)
+        time.sleep(120)
         #this loop will be repeat every 120 sec
 
 check()
