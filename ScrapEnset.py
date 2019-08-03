@@ -36,14 +36,14 @@ def check():
     
     page = requests.get(URL, headers = Headers)
     soup= BeautifulSoup(page.content,"html.parser")
-    newArticle = soup.find("li",class_="new-article").get_text()
+    newArticle = soup.find("span",class_="field-content").get_text()
     
     #here we bring the last article that exist in an li with class of new-article
     while(True):
         #we make a new request again 
         page = requests.get(URL, headers = Headers)
         soup= BeautifulSoup(page.content,"html.parser")
-        LastArticle = soup.find("li",class_="new-article").get_text()
+        LastArticle = soup.find("span",class_="field-content").get_text()
 
         if(LastArticle!=newArticle):
             send_Mail()
