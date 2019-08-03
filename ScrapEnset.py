@@ -5,7 +5,7 @@ import time
 
 #the url of the school
 URL = "https://www.enset-media.ac.ma/"
-#to get your user agent : write User Agent in google copy it and past it here
+#to get your my user agent : write User Agent in google copy it and past it here
 Headers = {'User-Agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36'}
 
 #function that send send email
